@@ -56,6 +56,10 @@ include <./node_modules/scad/small_hinge.scad>
 
 /*
 
+## v0.2.25
+
+- Lower the unsnapper to 1mm.
+
 ## v0.2.24
 
 - Change back from one to two snap connectors on top (and make the unsnapper a bit smaller to accommodate).
@@ -858,7 +862,7 @@ module lids()
     }
 }
 
-PETAL_EXTRA_HEIGHT = 2;
+PETAL_EXTRA_HEIGHT = 1;
 PETAL_INNER_OFFSET = 0;
 
 module lid_part_upper()
